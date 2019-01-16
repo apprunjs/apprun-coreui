@@ -4,19 +4,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
+  <!-- <link href="css/style.css" rel="stylesheet"> -->
   <title>apprun</title>
 </head>
 
-<body class="app sidebar-show aside-menu-show">
-  <header class="app-header navbar">
-    <div id="apprun-app-header"></div>
-  </header>
+<body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+  <header class="app-header navbar" id="apprun-app-header"></header>
   <div class="app-body">
     <div class="sidebar">
-      <div id="apprun-app-sidebar"></div>
+      <nav class="sidebar-nav ps ps--active-y">
+        <ul ul class="nav" id="apprun-app-sidebar"></ul>
+        <div class="ps__rail-x">
+          <div class="ps__thumb-x" tabindex="0"></div>
+        </div>
+        <div class="ps__rail-y">
+          <div class="ps__thumb-y" tabindex="0"></div>
+        </div>
+      </nav>
+      <button class="sidebar-minimizer brand-minimizer" type="button"></button>
     </div>
+
     <main class="main">
-      <div id="apprun-app-main"></div>
+      <ol class="breadcrumb" id="apprun-app-breadcrumb"></ol>
+      <div class="container-fluid">
+        <div id="apprun-app-main"></div>
+      </div>
     </main>
     <aside class="aside-menu">
       <div id="apprun-app-aside"></div>
