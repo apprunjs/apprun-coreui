@@ -2,10 +2,41 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
   <title>apprun</title>
 </head>
-<body>
-  <div id="my-app"></div>
+
+<body class="app sidebar-show aside-menu-show">
+  <header class="app-header navbar">
+    <div id="apprun-app-header"></div>
+  </header>
+  <div class="app-body">
+    <div class="sidebar">
+      <div id="apprun-app-sidebar"></div>
+    </div>
+    <main class="main">
+      <div id="apprun-app-main"></div>
+    </main>
+    <aside class="aside-menu">
+      <div id="apprun-app-aside"></div>
+    </aside>
+  </div>
+  <footer class="app-footer">
+    <div id="apprun-app-footer"></div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, Bootstrap, then CoreUI  -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.min.js"></script>
+
   <script src="dist/app.js"></script>
 </body>
+
 </html>
