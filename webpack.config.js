@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    'dist/app': './src/main.tsx',
+    './app': './src/main.tsx',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
