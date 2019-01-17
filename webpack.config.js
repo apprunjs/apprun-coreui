@@ -1,6 +1,11 @@
+const path = require('path');
 module.exports = {
   entry: {
-    './app': './src/main.tsx',
+    'dist/app': './src/main.tsx',
+  },
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname)
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js']
