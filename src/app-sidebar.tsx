@@ -5,13 +5,13 @@ export default class extends Component {
 
   view = (state) => {
     return <>
-        <li className="nav-title">Dashboard</li>
-        <li className="nav-item"><a className="nav-link active" href="main.html"><i className="nav-icon icon-speedometer"></i> Dashboard <span className="badge badge-info">NEW</span></a></li>
-        <li className="nav-title">Tasks</li>
-        <li className="nav-item"><a className="nav-link" href="#"><i className="nav-icon icon-drop"></i> New </a></li>
-        <li className="nav-item"><a className="nav-link" href="#"><i className="nav-icon icon-drop"></i> Active</a></li>
-        <li className="nav-item"><a className="nav-link" href="#"><i className="nav-icon icon-drop"></i> Pending</a></li>
-        <li className="nav-item"><a className="nav-link" href="#"><i className="nav-icon icon-pencil"></i> Completed </a></li>
+        <li class="nav-title">Dashboard</li>
+        <li class="nav-item"><a class="nav-link active" href="main.html"><i class="nav-icon icon-speedometer"></i> Dashboard <span class="badge badge-info">NEW</span></a></li>
+        <li class="nav-title">Tasks</li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon icon-drop"></i> New </a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon icon-drop"></i> Active</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon icon-drop"></i> Pending</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="nav-icon icon-pencil"></i> Completed </a></li>
       </>
   }
 
