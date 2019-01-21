@@ -1,4 +1,6 @@
-## Demo Application Using CoreUI
+## AppRun Application Using CoreUI
+
+![Screenshot](screen.png)
 
 * Use _npm start_ to start the dev server
 * Use _npm test_ to run unit tests
