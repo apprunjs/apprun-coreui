@@ -9,11 +9,11 @@ import Home from './home';
 import Test from './test';
 
 app.render(document.body, <>
-  <header class="app-header navbar"><Header /></header>
+  <Header />
   <div class="app-body">
     <div class="sidebar">
       <nav class="sidebar-nav ps ps--active-y">
-        <ul ul class="nav"><Sidebar /></ul>
+        <Sidebar />
         <div class="ps__rail-x">
           <div class="ps__thumb-x" tabindex="0"></div>
         </div>
@@ -26,23 +26,15 @@ app.render(document.body, <>
 
     <main class="main">
       <Breadcrumb />
-      <div class="container-fluid">
-        <div id="apprun-app-main">
-          <Home />
-        </div>
+      <div class="container-fluid" id="apprun-app-main">
+        <Home />
       </div>
     </main>
     <aside class="aside-menu">
       <Aside />
     </aside>
   </div>
-  <footer class="app-footer">
-    <div id="apprun-app-footer">
-      <Footer />
-    </div>
-  </footer>
-
-
+  <Footer id="apprun-app-footer"/>
 </>);
 
 new Test().mount('apprun-app-main');

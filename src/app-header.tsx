@@ -4,7 +4,7 @@ export default class extends Component {
   state = 'My App'
 
   view = (state) => {
-    return <>
+    return <header class="app-header navbar">
       <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,7 +20,7 @@ export default class extends Component {
       <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </>
+    </header>
   }
 
   update = {}
