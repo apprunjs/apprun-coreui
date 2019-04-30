@@ -12,18 +12,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^24.0.6",
-    "jest": "^24.1.0",
+    "@types/jest": "^24.0.12",
+    "jest": "^24.7.1",
     "source-map-loader": "^0.2.4",
-    "ts-jest": "^24.0.0",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.3.3",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.0"
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^5.4.4",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
-    "apprun": "^1.16.2"
+    "apprun": "^1.18.0"
   },
   "jest": {
     "transform": {
